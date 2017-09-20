@@ -1,7 +1,6 @@
 import com.codeborne.selenide.Configuration;
-import io.qameta.allure.testng.AllureTestNg;
 
-public abstract class SelenideExtension extends AllureTestNg {
+public abstract class SelenideExtension {
 
     public SelenideExtension() {
         Configuration.browser = "CHROME";
